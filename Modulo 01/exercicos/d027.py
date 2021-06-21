@@ -1,0 +1,5 @@
+print('===== DESAFIO 027 =====')
+nome = str(input('Digite o seu nome: ')).strip()
+nome = nome.split()
+print(f'o seu primeiro nome é {nome[0]}')
+print(f'o seu segundo nome é {nome[len(nome)-1]}')

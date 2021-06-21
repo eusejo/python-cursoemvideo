@@ -1,0 +1,5 @@
+print('===== DESAFIO 026 =====')
+fra = str(input('Digite algo: ')).upper().strip()
+print(f'a letra a aparece {fra.count("A")} vezes na sua frase')
+print(f'a posição do primeiro a é {fra.find("A")}')
+print(f'a posição do ultimo a é {fra.rfind("A")}')

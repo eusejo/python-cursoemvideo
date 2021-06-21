@@ -1,0 +1,5 @@
+print('===== DESAFIO 06 =====')
+n = int(input('digite um valor: '))
+print(f'o dobro de {n} é {n*2}')
+print(f'o triplo de {n} é {n*3}')
+print(f'a raiz quadrada de {n} é {int(n**(1/2))}')

@@ -1,0 +1,6 @@
+print('===== DESAFIO 023 =====')
+num = str(input('Digite um numero de 0 a 9999: '))
+print('sua unidade é:',num[3])
+print('sua desena é',num[2])
+print('sua centena é:',num[1])
+print('sua milhar é:',num[0])
