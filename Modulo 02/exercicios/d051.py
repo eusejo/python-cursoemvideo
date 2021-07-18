@@ -8,4 +8,3 @@ s = 0
 for c in range(t1, t1+10, r):
     s += c
 print(s)
-
