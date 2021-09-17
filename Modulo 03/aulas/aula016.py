@@ -7,7 +7,7 @@ receber dados de
 tipos diferentes
 
 adicionando elementos na
-tupla: tupla + novoelemento
+tupla: tuplaoriginal + (novoelemento,)
 
 sorted()
 len()
