@@ -12,6 +12,12 @@ produtos = (
     'livro', 34.90
 )
 
-print('------------------------------------------')
+print('-'*40)
 print('\tLISTAGEM DE PREÇOS')
-print('------------------------------------------')
+print('-'*40)
+for pos in range(0, len(produtos)):
+    if pos % 2 == 0:
+        print(f'{produtos[pos]:.<30}',end="")
+    else:
+        print(f'R$ {produtos[pos]:>7.2f}')
+print('-'*40)

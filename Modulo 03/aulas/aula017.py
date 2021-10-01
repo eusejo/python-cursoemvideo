@@ -43,3 +43,7 @@ b = a[:]
 b[2] = 8
 print(f'a lista A {a}')
 print(f'a lista B {b}')
+
+# lista dentro de listas
+lista = [['joao', 45],['maria', 54],['claudio', 78]]
+print(list[0][0])

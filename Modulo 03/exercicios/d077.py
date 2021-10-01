@@ -5,6 +5,8 @@ tupla = ('lapis', 'caneta',
     'controle', 'televisao', 'copo'
 )
 
-for c in range(0, len(tupla)):
-    if tupla[c] in 'aeiou':
-        print(f'a vogais de {tupla[c]}') 
+for p in tupla:
+    print(f'\nna palavra {p.upper()} temos ',end='')
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(f'{letra}',end=' ')

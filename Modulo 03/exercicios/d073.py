@@ -18,4 +18,4 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 print(f'os times em ordem alfabetica: {sorted(times)}')
 
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-print(f'o chapecoense enta na {times} posição')
+print(f'o chapecoense enta na {times.index("chapecoense")} posição')
